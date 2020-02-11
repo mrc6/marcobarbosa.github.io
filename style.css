@@ -1,0 +1,53 @@
+         h1{
+         font-family:"Raleway",monospace;
+         color:#41646d;
+         text-align: center;
+         }
+
+         h2{
+         font-family:"Lemonada",sans-serif;
+         color:#12697a
+         }
+  
+         li.habilidade-01,li.habilidade-03{
+         font-family:"Sriracha",sans-serif;
+         }
+
+         img{
+         border-radius:100%;
+         }
+   
+         strong{
+         color:#12697a
+         }
+         
+         #trybe{
+         color:#0fa36b;
+         }
+          
+         .menu-principal{
+         text-align: center;
+         }
+
+         .habilidade-01{
+         font-size:2em;
+         }
+
+          .habilidade-02{ 
+         }
+
+         .habilidade-03{ 
+         font-size:2em;
+         }
+
+         .habilidade-04{ 
+         }
+ 
+         #topo={
+         text-align: center;
+         }
+         
+         body{
+         background-color:#b5dcc3;
+         border:0px;
+         }
