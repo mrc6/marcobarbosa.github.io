@@ -1,0 +1,59 @@
+body {
+  background: darkgrey;
+}
+
+.chapolin {
+  left: 0;
+}
+
+.gato {
+  left: 450px;
+}
+
+header {
+  background: darkred;
+  text-align: center;
+  width: auto;
+}
+
+.he-man {
+  left: 300px;
+}
+
+.julius {
+  left: 150px;
+}
+
+.meme-image {
+  display: inline-block;
+  height: 399px;
+  position: absolute;
+  width: 399px;
+  z-index: 0;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: solid 1px black;
+  height: 400px;
+  width: 400px;
+}
+
+.miniature {
+  height: auto;
+  position: absolute;
+  width: 100px;
+}
+
+p {
+  color: white;
+  font-size: 35px;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  top: 114px;
+  width: 400px;
+  word-break: normal;
+  z-index: 1;
+}
