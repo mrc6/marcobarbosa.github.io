@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+
+.item-selecionado {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.lista-tarefas {
+  width: 300px;
+}
+
+li {
+  cursor: pointer;
+}
