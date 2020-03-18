@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+  <meta>
+  <head>
+  <meta name="charset" content="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <title id="pageTitle">Facebook – entre ou cadastre-se</title>
+  </head>
+  <body>
+    <header>
+       <nav></nav>
+    </header>
+    <div>
+      <article>
+        <section class="cabecalho">
+          <div class="navigation">
+          </div>
+          <div class="top-bar">
+            <div class="menu_login_container">
+              <div class="clear_login">
+                <div class="facebook-logo">
+                  <h1>
+                    <a href="" title="Ir para a página inicial do Facebook">
+                      <div class="logo">
+                        <u>facebook</u>
+                      </div>
+                    </a>
+                  </h1>
+                </div>
+                <div class="menu_login">
+                  <form>
+                    <table>
+                      <tr>
+                        <td>
+                          <label class="labels" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                        </td>
+                        <td>
+                          <label class="labels" for="user-password">Senha</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <input type="text" id="user-email-phone" class="input"></input>
+                        </td>
+                        <td>
+                          <input type="password" id="user-password" class="input"></input>
+                        </td>
+                        <td>
+                          <button id="button-login">Entrar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="labels">
+                            <a href="">Esqueceu a conta?</a>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <div class="conteudo-principal">
+        <div id="ladoFoto" class="ladoFoto">
+          <div id="imagemMapa" class="imagemMapa">
+            <h2>O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte<br> da sua vida.</h2>
+            <img id="facebook-networking" src="./images/networking.png" alt="Mapa do Mundo com Pessoas se Conectando">
+          </div>
+        </div>
+        <div id="ladoDados" class="ladoDados">
+          <div id="tituloLadoDados" class="tituloLadoDados">Abra uma conta</div>
+          <p id="rapidoFacil" class="rapidoFacil">É rápido e fácil.</p>
+          <form>
+            <div class="identidade">
+              <input class="entradaPrincilpal ns" id="nome" type="text" placeholder="Nome" autocomplete="on">
+              <input class="entradaPrincilpal ns" id="sobreNome" type="text" placeholder="Sobrenome" autocomplete="on">
+            </div>
+            <div class="identidade"><input class="entradaPrincilpal celularSenha" id="celularEmail"  type="email" placeholder="Celular ou email" autocomplete="on"><br></div>
+            <div class="identidade">
+              <input class="entradaPrincilpal celularSenha" id="senha" type="password" placeholder="Nova senha">
+            </div>
+            <br>
+            <div><label class="dataGenero">Data de nascimento</label>
+              <input class="entradaPrincilpal" id="data" type="date" placeholder="dd/mm/aaaa" autocomplete="on">
+            </div>
+            <br>
+            <div>
+              <label class="dataGenero">Gênero</label><br>
+            <input type="radio" class="genero" name="genero" value="Feminino">
+            <label>feminino</label>&nbsp;&nbsp;
+            <input type="radio" class="genero" name="genero" value="Masculino" checked>&nbsp;&nbsp;
+            <label>Masculino</label>&nbsp;&nbsp;
+            <input type="radio" class="genero" name="genero" value="Personalizado">
+            <label>Personalizado</label>
+            </div>
+            <br>
+            <div><button type="button" id="facebook-register" class="facebook-register">Cadastre-se</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+        <footer class="footer"></footer>
+    <script src="./script.js"></script> <!-Deve sempre ser colocado no fim do body->
+  </body>
+</html>
