@@ -1,0 +1,288 @@
+.article-animation {
+  animation-duration: 4s;
+  animation-name: article-grow;
+  animation-play-state: paused;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.descripting {
+  font-weight: 900;
+  margin-top: 0;
+  text-align: center;
+}
+
+.fly {
+  animation: flying 4s ease-in 3s 3 alternate;
+  animation-fill-mode: forwards;
+  margin-left: -50px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.footer {
+  background-color: black;
+  clear: both;
+  color: white;
+  height: 30px;
+  margin-top: 2px;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  border: 1px solid black;
+}
+
+.headline {
+  font-size: 65px;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
+html , body {
+  background-color: lightgrey;
+  height: 100%;
+  max-width: 760px;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.left-content {
+  animation: entorta 2s steps(4, end) 3s;
+  transition: transform 2s ease-out;
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+nav {
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  margin: 5px;
+  text-align: justify;
+}
+
+.principal {
+  font-size: 45px;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
+.prophet {
+  color: #ffed91;
+}
+
+.right-content {
+  animation: aumenta 2s steps(4, end) 3s;
+  transition: transform 2s ease-out;
+}
+
+.sheet {
+  border: 1px solid black;
+  max-width: 760px;
+}
+
+.side-bar {
+  animation: translada 2s steps(4, end) 3s;
+  transition: transform 2s ease-out;
+}
+
+.subtitle {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.the {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+@media only screen and ( max-width : 760px ) {
+
+  .container-layout {
+    background-color: yellow;
+  }
+
+  html , body {
+    background-color: yellow;
+  }
+
+  img {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+}
+
+@media only screen and ( max-width : 760px ) and ( orientation : landscape ) {
+
+  .container-orientation {
+    border: 1px solid red;
+  }
+
+}
+
+@media only screen and ( min-width : 800px ) {
+
+  article {
+    flex: 3;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  html {
+    animation: cheguei;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+  }
+
+  img {
+    float: left;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+
+  .nav-text {
+    text-align: justify;
+  }
+
+  .left-content {
+    flex: 1;
+  }
+
+  .other-news {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .other-news-text {
+    font-size: 18px;
+  }
+
+  .right-content {
+    flex: 1;
+  }
+
+  .sangue {
+    color: black;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: color;
+  }
+
+  .sangue:hover {
+    color: red;
+  }
+
+  .sheet {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .side-text {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and ( min-width : 1170px ) {
+
+  .container-layout {
+    background-color: red;
+  }
+
+  header {
+    min-width: 1170px;
+  }
+
+  html , body {
+    background-color: red;
+  }
+
+  .sheet {
+    min-width: 1170px;
+  }
+
+}
+
+@keyframes article-grow {
+
+  to {
+    font-weight: 900;
+    transform: scale(1.5);
+  }
+
+}
+
+@keyframes aumenta {
+
+  to {
+    transform: scale(1.5);
+  }
+
+}
+
+@keyframes cheguei {
+
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes entorta {
+
+  to {
+    transform: skew(60deg);
+  }
+
+}
+
+@keyframes flying {
+
+  0% {
+    margin-left: -50px;
+    margin-top: 0;
+  }
+
+  100% {
+    margin-left: 90%;
+    margin-top: 90%;
+  }
+
+}
+
+@keyframes translada {
+
+  to {
+    transform: translate(25px, 25px);
+  }
+
+}
