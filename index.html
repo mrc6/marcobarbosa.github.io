@@ -60,6 +60,27 @@
              padding:10px;
           }
 
+          @media only screen and ( max-width : 800px ) {
+
+            body {
+              display: flex;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              justify-content: center;
+            }
+            
+            img {
+               display: none;
+            }
+            
+            #texto-sobre{
+             align-items: flex-start;
+             float:none;
+             margin:35px;
+             padding:35px;
+            }
+
+         }
        </style>
 
    </head>
@@ -73,7 +94,7 @@
 
        <nav class="menu-principal">
           <p style="border:10px solid #12697a; padding:10px;"><a href="#sobre">Sobre</a> &nbsp <a href="#habilidades">Habilidades</a> &nbsp <a href="#curiosidades">Curiosidades</a>
-             &nbsp  <a href="#onde-encontrar">Onde Você me Encontra</a> &nbsp <a href="./projetos.html">Projetos</a>
+             &nbsp  <a href="#onde-encontrar">Onde Você me Encontra</a> &nbsp <a href="./projetos.html">Projetos</a> &nbsp <a href="https://www.16personalities.com/br/personalidade-isfj" target="_blank">Meu Teste 16personalities</a>
           </p>
        </nav>
 
@@ -92,12 +113,19 @@
                 Atualmente sou estudante de desenvolvimento de software na <strong id="trybe"><a href="https://www.betrybe.com/" 
                 class="muda-link" target="_blink">Trybe</a></strong>.<br>
              </p>
-             <div>
-                <a href="./projetos.html"><p>Meus Projetos</p></a>
-             </div>
        </article>
       
        <div id="segunda-parte">
+         <article id="habilidades-texto">
+            <div>
+               <a href="./projetos.html"><h2 id="habilidades">Meus Projetos</h2></a>
+             </div>
+         </article>
+         <article id="habilidades-texto">
+            <div>
+               <a href="https://www.16personalities.com/br/personalidade-isfj" target="_blank"><h2 id="habilidades">Meu Teste 16personalities</h2></a>
+             </div>
+         </article>
           <article id="habilidades-texto">
              <h2 id="habilidades">Minhas habilidades pessoais incluem</h2>          
                 <p>
@@ -112,7 +140,7 @@
 
           <article id="curiosidades-texto">
              <h2 id="curiosidades">Curiosidades</h2>
-                <p>Em muito assuntos sou autoditada e gosto sempre de aprender, por isso que uso e abuso do <a href="https://www.youtube.com.br" target="_blink">youtube</a>.
+                <p>Em muitos assuntos sou autoditada e gosto sempre de aprender, por isso que uso e abuso do <a href="https://www.youtube.com.br" target="_blink">youtube</a>.
                    <br> Também desenvolvi um <a href="https://www.mql5.com/pt/signals/594262" target="_blink">robô</a> que faz operações automáticas no mercado internacional de câmbio.
                    <br> Eu não bebo, mas gosto de fazer bebidas fermentadas em casa.
                    <br>
