@@ -8,6 +8,7 @@ for (i=0; i < available_pics.length; i++) {
     let div = document.createElement('div');
     div.className = 'content';
     let img_div = document.createElement('div');
+    img_div .className = 'img_content';
     let inner_img = document.createElement('img');
     inner_img.className = 'picture';
     inner_img.src = `${available_pics[i].picture}`;
