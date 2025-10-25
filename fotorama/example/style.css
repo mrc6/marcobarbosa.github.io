@@ -8,13 +8,13 @@ body {
 }
 
 .musicBtn {
-    background-color: #f44336;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 14px 40px;
-    border-radius: 12px;
-    border: 1px solid #555555;
-    width: 80px;
+  background-color: #f44336;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: 1px solid #555555;
+  width: 30%;
 }
 
 .musicBtn:hover {
@@ -28,60 +28,16 @@ body {
 }
 
 .picture {
-    width: 80%;
-    height: auto;
-  }
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
 
 .paragraph {
-  background-color: green;
+  background-color: white;
   width: 30%; 
 }
-
-span {
-  font-size: 15px;
-}
-
-@media only screen and (min-width: 800px){
-  body {
-    background-image: url('./Pictures/nordeste.jpg');
-  }
-
-  .container {
-    display:flex;
-    flex-direction: column;
-  }
-
-  .musicBtn {
-    background-color: #f44336;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 14px 40px;
-    border-radius: 12px;
-    border: 1px solid #555555;
-    width: 80px;
-  }
-
-  .musicBtn:hover {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  .content {
-    display:flex;
-    flex-direction: column;
-  }
-
-  .picture {
-    width: 720px;
-    height: auto;
-  }
-
-  .paragraph {
-    background-color: white;
-    width: 15%; 
-  }
   
-  span {
-    font-size: 15px;
-  }
+span {
+  font-size: 30px;
 }
