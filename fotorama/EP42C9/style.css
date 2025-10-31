@@ -10,12 +10,14 @@ body {
 
 .musicBtn {
   background-color: #f44336;
-  font-size: 30px;
+  font-size: 3em;
   color: #ffffff;
   /*padding: 14px 40px;*/
   border-radius: 12px;
   border: 1px solid #555555;
-  width: 30%;
+  width: 80%;
+  max-width: 1024px;
+  height: auto;
 }
 
 .musicBtn:hover {
@@ -43,9 +45,11 @@ body {
 
 .paragraph {
   background-color: white;
-  width: 30%; 
+  width: 80%;
+  max-width: 1024px;
+  height: auto; 
 }
   
 span {
-  font-size: 30px;
+  font-size: 3em;
 }
