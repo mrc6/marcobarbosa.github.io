@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 75%;
-    height: 10%;
+    height: 20%;
     overflow: hidden; /* Hides the text when it moves out of the container */
     border: 1px solid #ccc;
     position: relative;
