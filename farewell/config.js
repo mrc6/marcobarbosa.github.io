@@ -1,4 +1,4 @@
-localStorage.setItem("song", "Europe_The_Final_Countdown_Edited.mp3")
+localStorage.setItem("song", "EverytimeYouGoAwayCut.mp3")
 localStorage.setItem("image", "sad_raccoon.jpg")
 localStorage.setItem("text", 
     `
