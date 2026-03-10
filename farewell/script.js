@@ -15,7 +15,7 @@ const multiLineText = localStorage.getItem("text");
 const lines = multiLineText.split(/\r?\n/);
 const nlines = lines.length;
 const wait_time = nlines*1000*2;
-const end_line = lines[12]
+const end_line = lines[nlines-2]
 
 // Iterate over the array of lines using forEach
 lines.forEach((line) => {
