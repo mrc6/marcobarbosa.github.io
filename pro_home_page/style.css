@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+    /*overflow: hidden; /* Keeps the animation within the view */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    margin: 0;
+    background: #333;
+    overflow: hidden; /* Keeps the animation within the view */
+}
+
+.container {
+    width: 75%;
+    height: 15%;
+    overflow: hidden; /* Hides the text when it moves out of the container */
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.contact {
+    background: #ccc;
+    color: #333;
+    font-size: medium;
+}
+
+.moving-text {
+    position: absolute; /* Allows precise positioning for animation */
+    bottom: auto;
+    width: 100%;
+    text-align: center;
+    animation: moveUp 30s linear infinite; /* Apply the animation */
+    background: #333;
+}
+
+.stopped-text {
+    position: absolute; /* Allows precise positioning for animation */
+    bottom: auto;
+    width: 100%;
+    text-align: center;
+    animation: none;
+    background: #333;
+}
+
+.image-container {
+    width: 15%;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto; /* Maintains the original aspect ratio */
+}
+
+p {
+  color: #ccc;
+  font-size: x-large;
+}
+
+h1 {
+    color: #ccc;
+}
+
+.hide
+{
+    display: none;
+    color: transparent;
+}
+
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0); /* Start at the bottom (its natural position) */
+    }
+    100% {
+        transform: translateY(-100%); /* Move up by the container's height */
+        /* Use a negative value for 'top' to move up, or translateY() */
+    }
+}
