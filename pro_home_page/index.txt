@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Marcob's Home Page</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="first_action">
+          <h1>Are you human?</h1>
+          <button class="actBtn">I am human</button>
+      </div>
+      <div id="music_control" class="hide">
+          <button class="playBtn">Play Song</button>
+          <button class="pauseBtn">Pause Song</button>
+          <button class="stopBtn">Stop Song</button>
+      </div>
+      <div class="content hide">
+          <div class="image-container">
+              <img src="" alt="" class="responsive-image">
+          </div>
+          <div class="container">
+              <div class="stopped-text">
+              </div>
+          </div>
+      </div>
+      <div id="contact" class="hide">
+        <p class="contact">
+            &nbsp;
+            Find me on: 
+            <a href="https://www.linkedin.com/in/marco-barbosa-bh2/">LinkedIn</a>
+            &nbsp;
+        </p>
+      </div>
+  </body>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</html>
