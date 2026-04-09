@@ -1,4 +1,4 @@
-localStorage.setItem("song", "Europe_The_Final_Countdown_Edited.mp3")
+localStorage.setItem("song", "fear_of_the_dark_solo_sample.mp3")
 localStorage.setItem("image", "2601_me.jpg")
 localStorage.setItem("delayed_image", "2601_me_laser_eyes.png")
 localStorage.setItem("text", 
